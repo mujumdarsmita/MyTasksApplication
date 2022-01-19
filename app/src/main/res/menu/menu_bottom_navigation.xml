@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+            android:id="@+id/home"
+            android:title="home"
+            android:icon="@drawable/ic_home"
+            app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+            android:id="@+id/placeholder1"
+            android:title=""
+            android:enabled="false"></item>
+
+
+
+    <item
+            android:id="@+id/tasks"
+            android:title="tasklist"
+            android:icon="@drawable/ic_tasklist"
+            app:showAsAction="ifRoom">
+
+    </item>
+
+</menu>
